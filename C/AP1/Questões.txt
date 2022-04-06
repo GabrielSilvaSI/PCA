@@ -1,0 +1,28 @@
+1) Faça um programa em C que calcule e imprima o enésimo termo de uma progressão aritmética.
+Considere a seguinte fórmula:
+
+an = a1 + (n – 1)r
+
+
+a1, n e r são valores lidos do teclado. Ao final, o programa deve imprimir se o termo
+gerado é um número primo ou não.
+
+2) Alguns números de três dígitos tem a seguinte característica: a soma do cubo de cada dígito 
+é igual ao próprio número de três dígitos. Ex: 153. 1³ + 5 ³ + 3³ = 153. Faça um programa em C
+que escreva todos os números com esta característica entre 501 e 1000.
+
+
+3) Dado um inteiro positivo N, uma "lacuna de 0s" é qualquer sequência máxima de zeros
+consecutivos que é cercada por 1s em ambas as extremidades na representação binária do inteiro
+positivo N. Por exemplo, o número 9 tem representação binária 1001 e contém um intervalo binário
+de comprimento 2. O número 529 tem representação binária 1000010001 e contém dois intervalos
+binários: um de comprimento 4 e um de comprimento 3. O número 20 tem representação binária 10100
+e contém um intervalo binário de comprimento 1. O número 15 tem representação binária 1111 e não 
+possui intervalos binários. O número 32 tem representação binária 100.000 e não possui lacunas binárias.
+
+Faça um programa em C que receba um inteiro positivo N como entrada e retorne o comprimento de seu
+"intervalo de 0s" mais longo. A função deve retornar 0 se o valor N não contiver uma lacuna binária.
+
+Por exemplo, dado N = 1041, a função deve retornar 5, porque N tem representação binária 10000010001
+e, portanto, seu maior "intervalo de 0s" tem comprimento 5. Dado N = 32, a função deve retornar 0,
+porque N tem representação binária '100000' e, portanto, sem "lacunas de 0s".
